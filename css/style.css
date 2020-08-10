@@ -16,8 +16,16 @@ a {
 h3 {
   font-size: 35px !important; }
 
-h1, h2, h3, h4, h5,
-.h1, .h2, .h3, .h4, .h5 {
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 .border-2 {
@@ -155,7 +163,8 @@ body:after {
     max-width: 100%; } }
 
 @media (max-width: 991.98px) {
-  .display-1, .display-3 {
+  .display-1,
+  .display-3 {
     font-size: 3rem; } }
 
 .play-single-big {
@@ -206,21 +215,30 @@ body:after {
     .ul-check li.remove:before {
       color: #dee2e6; }
 
-.select-wrap, .wrap-icon {
+.select-wrap,
+.wrap-icon {
   position: relative; }
-  .select-wrap .icon, .wrap-icon .icon {
+  .select-wrap .icon,
+  .wrap-icon .icon {
     position: absolute;
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 22px; }
-  .select-wrap select, .wrap-icon select {
+  .select-wrap select,
+  .wrap-icon select {
     appearance: none;
     width: 100%; }
 
 @media (min-width: 992px) {
-  .mt-lg-5, .my-lg-5 {
+  .mt-lg-5,
+  .my-lg-5 {
     margin-top: 7rem !important; } }
+@media screen and (max-width: 480px) {
+  .site-wrap .site-blocks-cover .muse {
+    margin-bottom: 50px; }
+  .site-wrap .cv_btn {
+    margin-bottom: -100px; } }
 /* Navbar */
 .site-navbar {
   margin-bottom: 0px;
